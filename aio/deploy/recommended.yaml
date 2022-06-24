@@ -304,3 +304,11 @@ spec:
       volumes:
         - name: tmp-volume
           emptyDir: {}
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: admin-user
+  namespace: kubernetes-dashboard
